@@ -1,0 +1,19 @@
+Design Name: i2c_master_top
+Run Directory: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/reports/magic//39-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/results/lvs/i2c_master_top.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/reports/routing//41-antenna.rpt
+Number of pins violated: 1
+Number of nets violated: 1

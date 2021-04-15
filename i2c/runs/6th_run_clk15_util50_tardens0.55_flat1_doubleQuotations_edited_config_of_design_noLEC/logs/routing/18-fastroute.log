@@ -1,0 +1,483 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Warning: /home/ubuntu/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 31, default_operating_condition tt_025C_1v80 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 440 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/placement/15-resizer_timing.def
+Notice 0: Design: i2c_master_top
+Notice 0:     Created 35 pins.
+Notice 0:     Created 1759 components and 10739 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 1340 nets and 4349 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/placement/15-resizer_timing.def
+Min routing layer: 2
+Max routing layer: 6
+Global adjustment: 0.0
+Unidirectional routing: true
+Grid origin: (0, 0)
+[INFO GRT-0004] #DB Obstructions: 0
+[INFO GRT-0005] #DB Obstacles: 57211
+[INFO GRT-0006] #DB Macros: 0
+[INFO GRT-0017] Found 0 clock nets
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 19
+[INFO GRT-0018] Processing 40823 obstacles on layer 1
+[INFO GRT-0019] Processing 7590 obstacles on layer 2
+[INFO GRT-0022] Processing 5 obstacles on layer 5
+[INFO GRT-0023] Processing 5 obstacles on layer 6
+[INFO GRT-0020] Reducing resources of layer 1 by 99%
+[INFO] WIRELEN : 8252, WIRELEN1 : 0
+[INFO] NumSeg  : 2951
+[INFO] NumShift: 0
+First L Route
+[INFO] WIRELEN : 8249, WIRELEN1 : 8249
+[INFO] NumSeg  : 2944
+[INFO] NumShift: 58
+[Overflow Report] Total hCap    : 16117
+[Overflow Report] Total vCap    : 12677
+[Overflow Report] Total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Second L Route
+[Overflow Report] Total hCap    : 16117
+[Overflow Report] Total vCap    : 12677
+[Overflow Report] Total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+First Z Route
+[Overflow Report] Total hCap    : 16117
+[Overflow Report] Total vCap    : 12677
+[Overflow Report] Total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] LV routing round 0, enlarge 10 
+[INFO] 10 threshold, 10 expand
+[Overflow Report] total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 12
+[Overflow Report] Max Overflow  : 12
+[Overflow Report] Num Overflow e: 8
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 54
+[Overflow Report] Final Overflow: 54
+
+[INFO] LV routing round 1, enlarge 15 
+[INFO] 5 threshold, 15 expand
+[Overflow Report] total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] LV routing round 2, enlarge 20 
+[INFO] 1 threshold, 20 expand
+[Overflow Report] total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Usage checked
+Maze routing finished
+[INFO] P3 runtime: 0.000000 sec
+[INFO] Final 2D results: 
+[Overflow Report] total Usage   : 8249
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Layer Assignment Begins
+Layer assignment finished
+[INFO] 2D + Layer Assignment Runtime: 5.020000 sec
+Post Processing Begins 
+Post Processsing finished
+ Starting via filling
+[INFO] Via related to pin nodes 5920
+[INFO] Via related stiner nodes 313
+Via filling finished
+
+Final usage/overflow report: 
+[INFO] Usage per layer: 
+    Layer 1 usage: 0
+    Layer 2 usage: 4125
+    Layer 3 usage: 3746
+    Layer 4 usage: 349
+    Layer 5 usage: 69
+    Layer 6 usage: 0
+
+[INFO] Capacity per layer: 
+    Layer 1 capacity: 0
+    Layer 2 capacity: 9056
+    Layer 3 capacity: 8712
+    Layer 4 capacity: 5911
+    Layer 5 capacity: 3965
+    Layer 6 capacity: 1150
+
+[INFO] Use percentage per layer: 
+    Layer 1 use percentage: 0.0%
+    Layer 2 use percentage: 45.55%
+    Layer 3 use percentage: 43.00%
+    Layer 4 use percentage: 5.90%
+    Layer 5 use percentage: 1.74%
+    Layer 6 use percentage: 0.00%
+
+[INFO] Overflow per layer: 
+    Layer 1 overflow: 0
+    Layer 2 overflow: 0
+    Layer 3 overflow: 0
+    Layer 4 overflow: 0
+    Layer 5 overflow: 0
+    Layer 6 overflow: 0
+
+[Overflow Report] Total Usage   : 8289
+[Overflow Report] Total Capacity: 28794
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] Final usage          : 8289
+[INFO] Final number of vias : 7046
+[INFO] Final usage 3D       : 29427
+[INFO GRT-0018] Total wirelength: 83738 um
+Repairing antennas...
+[WARNING GRT-0025] No OR_DEFAULT vias defined
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 3 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 3 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 3 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 2 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 3 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 2 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 2 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 2 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 3 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+Notice 0: Split top of 1 T shapes.
+[INFO GRT-0012] #Antenna violations: 1
+Design Stats
+--------------------------------
+total instances          1760
+multi row instances         0
+fixed instances           440
+nets                     1342
+design area           24248.3 u^2
+fixed area              842.1 u^2
+movable area          12911.1 u^2
+utilization                55 %
+utilization padded         55 %
+rows                       57
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement      312.0 u
+average displacement      0.2 u
+max displacement          7.4 u
+original HPWL         54347.3 u
+legalized HPWL        55358.4 u
+delta HPWL                  2 %
+
+[INFO GRT-0015] 1 diodes inserted
+Min routing layer: 2
+Max routing layer: 6
+Global adjustment: 0.0
+Unidirectional routing: true
+Grid origin: (0, 0)
+[INFO GRT-0004] #DB Obstructions: 0
+[INFO GRT-0005] #DB Obstacles: 57217
+[INFO GRT-0006] #DB Macros: 0
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 19
+[INFO GRT-0018] Processing 40826 obstacles on layer 1
+[INFO GRT-0019] Processing 7592 obstacles on layer 2
+[INFO GRT-0022] Processing 5 obstacles on layer 5
+[INFO GRT-0023] Processing 5 obstacles on layer 6
+[INFO GRT-0020] Reducing resources of layer 1 by 99%
+[INFO GRT-0009] #Nets to reroute: 1061
+[WARNING UKN-0000] Underflow in reduce
+[WARNING UKN-0000] cap, reducedCap: 14, 16
+[WARNING UKN-0000] Underflow in reduce
+[WARNING UKN-0000] cap, reducedCap: 14, 15
+Running extra iterations to remove overflow...
+Update congestion history type 1
+[INFO] iteration 1, enlarge 12, costheight 9, threshold 10 via cost 2 
+[INFO] log_coef 0.678907, healingTrigger 0 cost_step 5 L 1 cost_type 1 updatetype 1
+
+Final usage/overflow report: 
+
+[Overflow Report] Total Usage   : 7659
+[Overflow Report] Total Capacity: 27925
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] Final usage          : 7659
+[INFO] Final number of vias : 6183
+[INFO] Final usage 3D       : 26208
+[INFO GRT-0014] Num routed nets: 1340
+Warning: /home/ubuntu/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 32, default_operating_condition ss_100C_1v60 not found.
+Warning: /home/ubuntu/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 31, default_operating_condition ff_n40C_1v95 not found.
+set_units -time ns
+set clk_period 15
+create_clock [get_ports wb_clk_i]  -name core_clock  -period ${clk_period}
+set input_delay_value [expr ${clk_period} * 0.4]
+set output_delay_value [expr ${clk_period} * 0.6]
+No paths found.
+Startpoint: _2152_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _2182_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _2152_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.09    0.24    0.24 ^ _2152_/Q (sky130_fd_sc_hd__dfrtp_1)
+     2    0.01                           byte_controller.bit_controller.slave_adr_received (net)
+                  0.09    0.00    0.24 ^ _2182_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  0.24   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _2182_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.02   -0.02   library hold time
+                                 -0.02   data required time
+-----------------------------------------------------------------------------
+                                 -0.02   data required time
+                                 -0.24   data arrival time
+-----------------------------------------------------------------------------
+                                  0.26   slack (MET)
+
+
+Startpoint: _2269_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _2284_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _2269_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                  0.32    0.96    0.96 v _2269_/Q (sky130_fd_sc_hd__dfrtp_1)
+     4    0.03                           byte_controller.bit_controller.cnt[0] (net)
+                  0.32    0.01    0.97 v _1205_/B (sky130_fd_sc_hd__or2_1)
+                  0.16    0.63    1.60 v _1205_/X (sky130_fd_sc_hd__or2_1)
+     3    0.01                           _0946_ (net)
+                  0.16    0.00    1.61 v _1206_/B (sky130_fd_sc_hd__or2_1)
+                  0.15    0.56    2.17 v _1206_/X (sky130_fd_sc_hd__or2_1)
+     3    0.01                           _0947_ (net)
+                  0.15    0.00    2.17 v _1207_/B (sky130_fd_sc_hd__or2_1)
+                  0.30    0.70    2.87 v _1207_/X (sky130_fd_sc_hd__or2_1)
+     4    0.03                           _0948_ (net)
+                  0.30    0.01    2.88 v _1208_/C (sky130_fd_sc_hd__or3_1)
+                  0.21    0.90    3.77 v _1208_/X (sky130_fd_sc_hd__or3_1)
+     3    0.01                           _0949_ (net)
+                  0.21    0.00    3.78 v _1209_/B (sky130_fd_sc_hd__or2_1)
+                  0.15    0.58    4.35 v _1209_/X (sky130_fd_sc_hd__or2_1)
+     3    0.01                           _0950_ (net)
+                  0.15    0.00    4.35 v _1210_/B (sky130_fd_sc_hd__or2_2)
+                  0.16    0.73    5.08 v _1210_/X (sky130_fd_sc_hd__or2_2)
+     4    0.01                           _0951_ (net)
+                  0.16    0.00    5.09 v _1211_/D (sky130_fd_sc_hd__or4_4)
+                  0.18    0.91    6.00 v _1211_/X (sky130_fd_sc_hd__or4_4)
+     4    0.01                           _0952_ (net)
+                  0.18    0.00    6.00 v _1950_/B (sky130_fd_sc_hd__or2_1)
+                  0.15    0.56    6.56 v _1950_/X (sky130_fd_sc_hd__or2_1)
+     3    0.01                           _0789_ (net)
+                  0.15    0.00    6.57 v _1952_/B (sky130_fd_sc_hd__or2_1)
+                  0.25    0.66    7.22 v _1952_/X (sky130_fd_sc_hd__or2_1)
+     3    0.02                           _0790_ (net)
+                  0.25    0.00    7.23 v _1954_/B (sky130_fd_sc_hd__nor2_1)
+                  0.60    0.56    7.78 ^ _1954_/Y (sky130_fd_sc_hd__nor2_1)
+     2    0.02                           _0791_ (net)
+                  0.60    0.01    7.79 ^ _1957_/A2 (sky130_fd_sc_hd__o21ai_1)
+                  0.11    0.26    8.05 v _1957_/Y (sky130_fd_sc_hd__o21ai_1)
+     1    0.00                           _0132_ (net)
+                  0.11    0.00    8.05 v _2065_/A0 (sky130_fd_sc_hd__mux2_1)
+                  0.12    0.65    8.71 v _2065_/X (sky130_fd_sc_hd__mux2_1)
+     1    0.00                           _0050_ (net)
+                  0.12    0.00    8.71 v _1219_/A1 (sky130_fd_sc_hd__a22o_1)
+                  0.07    0.39    9.10 v _1219_/X (sky130_fd_sc_hd__a22o_1)
+     1    0.00                           _0458_ (net)
+                  0.07    0.00    9.10 v _2284_/D (sky130_fd_sc_hd__dfrtp_1)
+                                  9.10   data arrival time
+
+                  0.00   15.00   15.00   clock core_clock (rise edge)
+                          0.00   15.00   clock network delay (ideal)
+                          0.00   15.00   clock reconvergence pessimism
+                                 15.00 ^ _2284_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.29   14.71   library setup time
+                                 14.71   data required time
+-----------------------------------------------------------------------------
+                                 14.71   data required time
+                                 -9.10   data arrival time
+-----------------------------------------------------------------------------
+                                  5.61   slack (MET)
+
+
+No paths found.
+wns 0.00
+tns 0.00

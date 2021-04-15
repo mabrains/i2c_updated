@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 39690 41834
+string GDS_FILE /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/results/magic/i2c_master_top.gds
+string GDS_END 3889334
+string GDS_START 659104
+<< end >>

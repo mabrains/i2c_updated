@@ -1,0 +1,18 @@
+Using Techfile: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+Using layout file: /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/results/klayout/i2c_master_top.xor.gds
+[INFO] Reading tech file: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+[INFO] Reading Layout file: /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/results/klayout/i2c_master_top.xor.gds
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=1931974, record number=121734, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=4631782, record number=308414, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=4765318, record number=308599, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=4933638, record number=308999, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=5061782, record number=309164, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=5183942, record number=309264, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=5316086, record number=309474, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=5369494, record number=309539, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=7798326, record number=474114, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=12015062, record number=734169, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=12065206, record number=734254, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=15277614, record number=885117, cell=XOR)
+[INFO] Writing out PNG screenshot '/openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/results/klayout/i2c_master_top.xor.gds.png'
+Done

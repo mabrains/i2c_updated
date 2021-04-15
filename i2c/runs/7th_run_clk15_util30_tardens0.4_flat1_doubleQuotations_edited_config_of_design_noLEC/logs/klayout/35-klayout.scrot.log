@@ -1,0 +1,20 @@
+Using Techfile: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+Using layout file: /openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/klayout/i2c_master_top.xor.gds
+[INFO] Reading tech file: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+[INFO] Reading Layout file: /openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/klayout/i2c_master_top.xor.gds
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=2544422, record number=167229, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6070758, record number=414899, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6144230, record number=414954, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6235190, record number=415079, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6340934, record number=415214, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6485254, record number=415359, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6604806, record number=415659, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6665926, record number=415724, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6709414, record number=415769, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6757382, record number=415799, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6850678, record number=415959, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=6950646, record number=416149, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=10137782, record number=622634, cell=XOR)
+Warning: Record length larger than 0x8000 encountered: interpreting as unsigned (position=18328238, record number=1097018, cell=XOR)
+[INFO] Writing out PNG screenshot '/openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/klayout/i2c_master_top.xor.gds.png'
+Done

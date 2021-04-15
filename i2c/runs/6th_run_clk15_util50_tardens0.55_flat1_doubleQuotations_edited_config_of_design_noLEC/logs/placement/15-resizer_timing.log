@@ -1,0 +1,161 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Warning: /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/resizer.lib line 32, default_operating_condition ss_100C_1v60 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 440 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+Notice 0: Design: i2c_master_top
+Notice 0:     Created 35 pins.
+Notice 0:     Created 1759 components and 10739 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 1340 nets and 4349 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/i2c/runs/6th_run_clk15_util50_tardens0.55_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+set_units -time ns
+set clk_period 15
+create_clock [get_ports wb_clk_i]  -name core_clock  -period ${clk_period}
+set input_delay_value [expr ${clk_period} * 0.4]
+set output_delay_value [expr ${clk_period} * 0.6]
+[INFO RSZ-0033] No hold violations found.
+Design Stats
+--------------------------------
+total instances          1759
+multi row instances         0
+fixed instances           438
+nets                     1342
+design area           24248.3 u^2
+fixed area              833.3 u^2
+movable area          12917.4 u^2
+utilization                55 %
+utilization padded         90 %
+rows                       57
+row height                2.7 u
+
+[WARNING DPL-0019] detailed placement failed on _1784_
+[WARNING DPL-0019] detailed placement failed on _1790_
+[WARNING DPL-0019] detailed placement failed on _1780_
+[WARNING DPL-0019] detailed placement failed on _2213_
+[WARNING DPL-0019] detailed placement failed on _2010_
+[WARNING DPL-0019] detailed placement failed on _1534_
+[WARNING DPL-0019] detailed placement failed on _2116_
+[WARNING DPL-0019] detailed placement failed on _1929_
+[WARNING DPL-0019] detailed placement failed on _1862_
+[WARNING DPL-0019] detailed placement failed on _1412_
+[WARNING DPL-0019] detailed placement failed on _1783_
+[WARNING DPL-0019] detailed placement failed on _1399_
+[WARNING DPL-0019] detailed placement failed on _2112_
+[WARNING DPL-0019] detailed placement failed on _1598_
+[WARNING DPL-0019] detailed placement failed on _1877_
+[WARNING DPL-0019] detailed placement failed on _1724_
+[WARNING DPL-0019] detailed placement failed on _1914_
+[WARNING DPL-0019] detailed placement failed on _1320_
+[WARNING DPL-0018] detailed placement failed on input17.
+[WARNING DPL-0019] detailed placement failed on _1750_
+[WARNING DPL-0019] detailed placement failed on _1595_
+[WARNING DPL-0019] detailed placement failed on _1204_
+[WARNING DPL-0018] detailed placement failed on output22.
+[WARNING DPL-0018] detailed placement failed on output23.
+[WARNING DPL-0018] detailed placement failed on output24.
+[WARNING DPL-0018] detailed placement failed on output25.
+[WARNING DPL-0019] detailed placement failed on _1228_
+[WARNING DPL-0018] detailed placement failed on output27.
+[WARNING DPL-0018] detailed placement failed on output28.
+[WARNING DPL-0018] detailed placement failed on output29.
+[WARNING DPL-0018] detailed placement failed on output30.
+[WARNING DPL-0019] detailed placement failed on _1593_
+Placement Analysis
+--------------------------------
+total displacement    11739.5 u
+average displacement      6.7 u
+max displacement        227.4 u
+original HPWL         40725.3 u
+legalized HPWL        55346.5 u
+delta HPWL                 36 %
+
+[INFO DPL-0020] Mirrored 602 instances
+[INFO DPL-0021] HPWL before           55346.5 u
+[INFO DPL-0022] HPWL after            54347.3 u
+[INFO DPL-0023] HPWL delta               -1.8 %
+[WARNING DPL-0005] Overlap check failed (78).
+ _1321_ overlaps _1319_
+ _1413_ overlaps _1277_
+ _1593_ overlaps _1469_
+ _1595_ overlaps _1594_
+ _1730_ overlaps _1257_
+ _1801_ overlaps _1783_
+ _1816_ overlaps _1784_
+ _1864_ overlaps _1700_
+ _1922_ overlaps _1856_
+ _1927_ overlaps _1465_
+ _1928_ overlaps _1410_
+ _1946_ overlaps _1625_
+ _1999_ overlaps _1536_
+ _2002_ overlaps _1534_
+ _2010_ overlaps _1911_
+ _2014_ overlaps _1854_
+ _2016_ overlaps _1910_
+ _2019_ overlaps _1841_
+ _2030_ overlaps _1412_
+ _2048_ overlaps _1598_
+ _2076_ overlaps _1752_
+ _2089_ overlaps _1739_
+ _2112_ overlaps _1388_
+ _2113_ overlaps _1780_
+ _2115_ overlaps _1477_
+ _2116_ overlaps _1841_
+ _2119_ overlaps _1989_
+ _2149_ overlaps _2036_
+ _2172_ overlaps _1907_
+ _2178_ overlaps _2030_
+ _2179_ overlaps _1733_
+ _2183_ overlaps _1974_
+ _2184_ overlaps _1971_
+ _2200_ overlaps _1975_
+ _2207_ overlaps _1634_
+ _2208_ overlaps _2049_
+ _2209_ overlaps _1472_
+ _2211_ overlaps _1469_
+ _2213_ overlaps _1982_
+ _2214_ overlaps _1563_
+ _2218_ overlaps _1985_
+ _2219_ overlaps _1537_
+ _2220_ overlaps _2000_
+ _2221_ overlaps _1995_
+ _2222_ overlaps _2007_
+ _2223_ overlaps _1539_
+ _2231_ overlaps _2115_
+ _2232_ overlaps _1862_
+ _2233_ overlaps _1471_
+ _2235_ overlaps _2026_
+ _2236_ overlaps _1854_
+ _2246_ overlaps _1403_
+ _2247_ overlaps _1279_
+ _2254_ overlaps _1389_
+ _2255_ overlaps _1386_
+ _2266_ overlaps _1729_
+ _2279_ overlaps _1204_
+ _2280_ overlaps _1798_
+ _2281_ overlaps _1227_
+ input1 overlaps _1779_
+ input3 overlaps _1389_
+ input12 overlaps _1724_
+ input17 overlaps _1792_
+ input18 overlaps _2114_
+ output21 overlaps _2279_
+ output22 overlaps _1835_
+ output23 overlaps _1390_
+ output24 overlaps _1804_
+ output25 overlaps _1824_
+ output26 overlaps _1228_
+ output28 overlaps _2020_
+ output29 overlaps _1840_
+ output30 overlaps _1805_
+ output31 overlaps input5
+ clkbuf_leaf_4_wb_clk_i overlaps _1700_
+ clkbuf_leaf_12_wb_clk_i overlaps _1750_
+ clkbuf_leaf_18_wb_clk_i overlaps _1728_
+ clkbuf_leaf_20_wb_clk_i overlaps _1391_

@@ -1,0 +1,6 @@
+Using Techfile: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+Using layout file: /openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+[INFO] Reading tech file: /home/ubuntu/openlane/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+[INFO] Reading Layout file: /openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+[INFO] Writing out PNG screenshot '/openLANE_flow/designs/i2c/runs/7th_run_clk15_util30_tardens0.4_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def.png'
+Done

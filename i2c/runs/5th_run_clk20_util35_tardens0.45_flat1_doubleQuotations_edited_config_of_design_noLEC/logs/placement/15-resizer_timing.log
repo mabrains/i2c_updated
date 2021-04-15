@@ -1,0 +1,50 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Warning: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/resizer.lib line 32, default_operating_condition ss_100C_1v60 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 440 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+Notice 0: Design: i2c_master_top
+Notice 0:     Created 35 pins.
+Notice 0:     Created 1954 components and 11209 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 1349 nets and 4367 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/i2c/runs/5th_run_clk20_util35_tardens0.45_flat1_doubleQuotations_edited_config_of_design_noLEC/results/cts/i2c_master_top.cts.def
+set_units -time ns
+set clk_period 20
+create_clock [get_ports wb_clk_i]  -name core_clock  -period ${clk_period}
+set input_delay_value [expr ${clk_period} * 0.4]
+set output_delay_value [expr ${clk_period} * 0.6]
+[INFO RSZ-0033] No hold violations found.
+Design Stats
+--------------------------------
+total instances          1954
+multi row instances         0
+fixed instances           624
+nets                     1351
+design area           34628.2 u^2
+fixed area             1121.1 u^2
+movable area          13022.5 u^2
+utilization                39 %
+utilization padded         63 %
+rows                       68
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement      702.9 u
+average displacement      0.4 u
+max displacement         23.8 u
+original HPWL         34915.7 u
+legalized HPWL        36586.6 u
+delta HPWL                  5 %
+
+[INFO DPL-0020] Mirrored 558 instances
+[INFO DPL-0021] HPWL before           36586.6 u
+[INFO DPL-0022] HPWL after            35506.5 u
+[INFO DPL-0023] HPWL delta               -3.0 %

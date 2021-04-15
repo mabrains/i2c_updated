@@ -1,0 +1,19 @@
+Notice 0: Reading LEF file:  /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/tmp/merged.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 440 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/results/routing/i2c_master_top.def
+Notice 0: Design: i2c_master_top
+Notice 0:     Created 43 pins.
+Notice 0:     Created 3763 components and 18766 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 1342 nets and 4360 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/i2c/runs/3rd_run_clk20_util35_tardens0.45_flat1_doubleQuotations/results/routing/i2c_master_top.def
+Top-level design name: i2c_master_top
+Default power net:  VPWR
+Default ground net: VGND
+Found a total of 1 power ports.
+Found a total of 1 ground ports.
+Modified power connections of 3763 cells (Remaining: 0 ).

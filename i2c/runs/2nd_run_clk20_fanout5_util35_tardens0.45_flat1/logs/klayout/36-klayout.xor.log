@@ -1,0 +1,438 @@
+First Layout: /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/magic/i2c_master_top.gds
+Second Layout: /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/klayout/i2c_master_top.gds
+Design Name: i2c_master_top
+Output GDS will be: /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/klayout/i2c_master_top.xor.xml
+Reading /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/magic/i2c_master_top.gds ..
+Reading /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/klayout/i2c_master_top.gds ..
+--- Running XOR for 122/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.050s
+XOR differences: 5373
+"_output" in: xor.drc:40
+Elapsed: 0.020s
+--- Running XOR for 235/4 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 1
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 236/0 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.090s
+XOR differences: 13
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 237/0 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 1
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 64/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.050s
+XOR differences: 5482
+"_output" in: xor.drc:40
+Elapsed: 0.020s
+--- Running XOR for 64/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.110s
+XOR differences: 25
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 64/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.020s
+--- Running XOR for 64/59 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.030s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.000s
+--- Running XOR for 65/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.200s
+XOR differences: 6976
+"_output" in: xor.drc:40
+Elapsed: 0.030s
+--- Running XOR for 65/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.030s
+XOR differences: 998
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 66/15 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 8
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 66/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.850s
+XOR differences: 9721
+"_output" in: xor.drc:40
+Elapsed: 0.040s
+--- Running XOR for 66/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.730s
+XOR differences: 49237
+"_output" in: xor.drc:40
+Elapsed: 0.120s
+--- Running XOR for 67/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.090s
+XOR differences: 15193
+"_output" in: xor.drc:40
+Elapsed: 0.040s
+--- Running XOR for 67/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 2.010s
+XOR differences: 8144
+"_output" in: xor.drc:40
+Elapsed: 0.030s
+--- Running XOR for 67/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.390s
+XOR differences: 32959
+"_output" in: xor.drc:40
+Elapsed: 0.080s
+--- Running XOR for 67/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 68/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.090s
+XOR differences: 10870
+"_output" in: xor.drc:40
+Elapsed: 0.030s
+--- Running XOR for 68/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.520s
+XOR differences: 5060
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 68/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.070s
+XOR differences: 12694
+"_output" in: xor.drc:40
+Elapsed: 0.030s
+--- Running XOR for 68/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.030s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 69/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 40
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 69/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.180s
+XOR differences: 5519
+"_output" in: xor.drc:40
+Elapsed: 0.030s
+--- Running XOR for 69/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 2957
+"_output" in: xor.drc:40
+Elapsed: 0.020s
+--- Running XOR for 69/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 70/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 26
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 70/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.030s
+XOR differences: 1159
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 70/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 1286
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 70/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 71/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 10
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 71/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 70
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 71/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 26
+"_output" in: xor.drc:40
+Elapsed: 0.000s
+--- Running XOR for 71/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 72/16 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 10
+"_output" in: xor.drc:40
+Elapsed: 0.000s
+--- Running XOR for 72/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.020s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 23
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 72/5 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.000s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 78/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.080s
+XOR differences: 25
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 81/23 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.010s
+XOR differences: 14
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 81/4 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"^" in: xor.drc:38
+Elapsed: 0.110s
+XOR differences: 1
+"_output" in: xor.drc:40
+Elapsed: 0.000s
+--- Running XOR for 83/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.020s
+XOR differences: 0
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 93/44 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.100s
+XOR differences: 344
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 94/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.000s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.130s
+XOR differences: 349
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+--- Running XOR for 95/20 ---
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"_input" in: xor.drc:38
+Elapsed: 0.010s
+"^" in: xor.drc:38
+Elapsed: 0.090s
+XOR differences: 760
+"_output" in: xor.drc:40
+Elapsed: 0.010s
+Writing report database: /openLANE_flow/designs/i2c/runs/2nd_run_clk20_fanout5_util35_tardens0.45_flat1/results/klayout/i2c_master_top.xor.xml ..
+Total run time: 12.010s
