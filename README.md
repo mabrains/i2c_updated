@@ -26,12 +26,32 @@ The PnR flow is basically starting from a ready verilog behavioral code which is
 Here I ran the default flow of OpenLANE using **flow.tcl** script which automates all the flow steps by one command which is:  
 ./flow.tcl -design _<name_of_design_directory>_ -tag _<name_of_the_run>_  
 I made 7 runs, 5 of them had some issue with the configuration with the tool and that made them all give identical results, so equivalently i made 3 different runs with some changes done to environmental variables to adjust the design and fix antenna issues.  
+The 3 runs done without Logical Equivalence Check.  
 ### Flow Runs
-|    Env Variables       |    STA Violations    |DRC Violations|LVS Violations|Antenna Violations  |  
-|------------------------|----------------------|--------------|--------------|--------------------|  
-|clk=20ns<br/>fp_util=49%|setup=0<br/>hold=0    |  0           |     0        |          0         |  
-|clk=10ns<br/>fp_util=40%|setup=0<br/>hold=0    |  0           |     0        |pins:1<br/>nets:1   |
-|clk=10ns<br/>fp_util=49%|setup=0<br/>hold=0    |  0           |     0        |pins:1<br/>nets:1   |
+|        Env Variables                           |    STA Violations    |DRC Violations|LVS Violations|Antenna Violations  |
+|------------------------------------------------|----------------------|--------------|--------------|--------------------|
+|clk=20ns<br/>fp util=35%<br/>target density=0.45|setup=0<br/>hold=0    |  0           |     0        |pins:1<br/>nets:1   |
+|clk=15ns<br/>fp util=50%<br/>target density=0.55|setup=0<br/>hold=0    |  0           |     0        |pins:4<br/>nets:4   |
+|clk=15ns<br/>fp util=30%<br/>target density=0.4 |setup=0<br/>hold=0    |  0           |     0        |pins:0<br/>nets:0   |
 
-The clean run is the first run.  
+The clean run is the first run.
 The screenshots for it are as follows:
+
+#### Design stats and Placement analysis after cts:
+![Design stats and placement analysis after cts](design_stats_and_placement_analysis.png)
+
+#### The worst negative slack and total negative slack:
+![tns and wns](confirmed_wns_tns.png)
+
+#### Worst hold timing slack
+![hold timing](worst_hold_slack_met.png)
+
+#### Worst setup timing slack
+![setup timing 1](worst_setup_slack_met_1.png)
+![setup timing 2](worst_setup_slack_met_2.png)
+
+#### DRC LVS Antenna checks
+![drc,lvs,antenna](DRC_LVS_Antenna_clean.png)
+
+#### Snap shot of the I2C design layout
+![i2c layout](i2c_layout.png)
